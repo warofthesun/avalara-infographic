@@ -1,0 +1,79 @@
+@keyframes moveUp {
+	0% {transform: translate(0,100%);}
+	98% {transform: translate(0, -10%);}
+	100% {transform: translate(0, 0%);}
+}
+
+@keyframes moveDown {
+	0% {transform: translate(0,-100%);}
+	98% {transform: translate(0, 10%);}
+	100% {transform: translate(0, 0%);}
+}
+
+@keyframes moveRight {
+	0% {transform: translate(-100px,0);}
+	
+	98% {transform: translate(10px,0);}
+	
+	100% {transform: translate(0px,0);}
+}
+
+@keyframes reveal {
+	0% {opacity: 0;}
+	
+	100% {opacity: 1;}
+}
+
+@keyframes hide {
+	0% {opacity: 1;}
+	
+	100% {opacity: 0;}
+}
+
+@keyframes grow {
+	0% {scale: 0%}
+	98% {scale: 110%}
+	100% {scale: 100%}
+}
+
+@keyframes shrink {
+	0% {scale: 100%}
+	100% {scale: 0%}
+}
+
+@keyframes rotation {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(359deg);}
+}
+
+@keyframes arrowMove {
+	0% {transform: translate(0,0);}
+
+	100% {transform: translate(-25px,-15px)}
+}
+
+@keyframes turnOrangeDark {
+	0% {fill: rgba(191,64,0,0);}
+
+	100% {fill: rgba(191,64,0,1);}
+}
+
+@keyframes turnOrange {
+	0% {fill: rgba(252,102,0,0);}
+
+	100% {fill: rgba(252,102,0,1);}
+}
+
+@keyframes turnWhite {
+	0% {fill: rgba(255,255,255,0);}
+
+	100% {fill: rgba(255,255,255,1);}
+}
+
+@keyframes arrowClick {
+	0% {scale: 100%;}
+
+	90% {scale: 99%;}
+
+	100% {scale: 100%;}
+}

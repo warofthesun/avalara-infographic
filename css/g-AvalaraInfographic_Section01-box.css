@@ -1,0 +1,92 @@
+<style>
+/* SECTION 01 */
+
+*[id^="itemImage1"] {
+	animation: reveal 1s ease;
+	animation-fill-mode: forwards;
+	animation-delay: 800ms;
+	/*transform-box: fill-box;*/
+	transform-origin: top;
+	/*animation-iteration-count: infinite;*/
+	opacity: 0;
+}
+
+*[id^="itemImage2"] {
+	animation: reveal 1s ease;
+	animation-fill-mode: forwards;
+	animation-delay: 1000ms;
+	/*transform-box: fill-box;*/
+	transform-origin: top;
+	/*animation-iteration-count: infinite;*/
+	opacity: 0;
+}
+
+*[id^="itemImage3"] {
+	animation: reveal 1s ease;
+	animation-fill-mode: forwards;
+	animation-delay: 1200ms;
+	/*transform-box: fill-box;*/
+	transform-origin: top;
+	/*animation-iteration-count: infinite;*/
+	opacity: 0;
+}
+
+*[id^="pointerArrow"] {
+	animation: reveal .3s ease 1500ms, arrowMove .5s ease 1500ms, arrowClick .1s 1900ms;
+	animation-fill-mode: forwards;
+	/*transform-box: fill-box;*/
+	transform-origin: bottom left;
+	opacity: 0;
+}
+
+*[id^="itemImage3Bag"] path, *[id^="itemImage3BagHandle"] {
+	animation: turnWhite .3s;
+	animation-delay: 1800ms;
+	animation-fill-mode: forwards;
+}
+
+*[id^="itemImage3Background"] {
+	animation: turnOrangeDark .2s;
+	animation-delay: 1900ms;
+	animation-fill-mode: forwards;
+	fill: #059BD2;
+}
+
+*[id^="itemImage3Foreground"] {
+	animation: turnOrange .2s;
+	animation-delay: 1900ms;
+	animation-fill-mode: forwards;
+	fill: #CDECF7;
+}
+
+*[id^="itemCard"] {
+animation: reveal 1s ease, moveRight .3s ease-in;
+animation-delay: 2100ms;
+animation-fill-mode: forwards;
+opacity: 0;
+transform: translate(-100px, 0px);
+}
+
+*[id^="dashedLine"] {
+animation: reveal 1s ease;
+animation-delay: 2100ms;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+*[id^="priceGroup"] {
+animation: reveal 1s ease;
+animation-delay: 2200ms;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+
+
+
+
+@media screen and (min-width: 640px) {
+}
+
+
+</style>

@@ -1,0 +1,14 @@
+<style>
+/* SECTION 02 */
+
+*[id^="receipt"] {
+	animation: reveal 1s ease;
+	animation-fill-mode: forwards;
+	animation-delay: 800ms;
+	/*transform-box: fill-box;*/
+	transform-origin: top;
+	/*animation-iteration-count: infinite;*/
+	opacity: 0;
+}
+
+</style>
